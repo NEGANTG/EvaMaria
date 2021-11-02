@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = ""Hello {}
  
-<>bI'm Mᴀsᴛᴇʀ ◢ ◤ or you can call me as Auto-Filter Bot.Its easy to use me; just add me to your group as admin, thats all, i will provide movies there..!!</b>
+<>bI'm Mᴀsᴛᴇʀ ◢ ◤ or you can call me as EvaMaria Bot.Its easy to use me; just add me to your group as admin, thats all, i will provide movies there..!!</b>
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/NEGANX>ɴᴇɢᴀɴ</a>""""
     HELP_TXT = """𝙷𝙴𝚈 {}
