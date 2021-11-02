@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = ""Hello {}
+    START_TXT = """Hello {}
  
 <>bI'm Mᴀsᴛᴇʀ ◢ ◤ or you can call me as EvaMaria Bot.Its easy to use me; just add me to your group as admin, thats all, i will provide movies there..!!</b>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/NEGANX>ɴᴇɢᴀɴ</a>""""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href=https://t.me/NEGANX>ɴᴇɢᴀɴ</a>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """➥ My Name: <a href=https://t.me/mflinkzbot>Mᴀsᴛᴇʀ ◢ ◤</a>
