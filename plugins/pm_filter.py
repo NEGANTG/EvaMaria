@@ -417,7 +417,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢', url='https://t.me/EvaMariaUpdates'),
+            InlineKeyboardButton('Share Me 🔄', url='https://t.me/share/url?url=https://t.me/mflinkzbot'),
             InlineKeyboardButton('Source 💡', callback_data='source')
             ],[
             InlineKeyboardButton('Home 🔓', callback_data='start'),
@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('🔘 Back', callback_data='manuelfilter')
+            InlineKeyboardButton('🔘 Back 🔘', callback_data='manuelfilter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -462,7 +462,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autofilter":
         buttons = [[
-            InlineKeyboardButton('🔘 Back', callback_data='help')
+            InlineKeyboardButton('🔘 Back 🔘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -472,7 +472,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('🔘 Back', callback_data='help')
+            InlineKeyboardButton('🔘 Back 🔘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -493,7 +493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('🔘 Back', callback_data='extra')
+            InlineKeyboardButton('🔘 Back 🔘', callback_data='extra')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
