@@ -58,7 +58,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"Type Movie Or Series Name [eg:- Game of thrones s07e02]"
+        switch_pm_text = f"Type Movie/Series Name [eg:- Money Heist s04e02]"
         if string:
             switch_pm_text += f" for {string}"
         try:
