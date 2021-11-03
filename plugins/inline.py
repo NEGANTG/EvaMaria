@@ -89,11 +89,14 @@ async def answer(bot, query):
 
 
 def get_reply_markup(query):
-    buttons = [
-        [
-            InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
-        ]
-        ]
+    buttons = [[
+        InlineKeyboardButton('♻️ Share', url='https://t.me/share/url?url=https://t.me/mflinkzbot'),
+        InlineKeyboardButton('📢 Updates', url='t.me/mf_linkz')
+        ],[
+        InlineKeyboardButton('➕ Add Me To Your Group ➕', url='https://t.me/mflinkzbot?startgroup=true')
+        ],[
+        InlineKeyboardButton('🔎 𝖲𝖾𝖺𝗋𝖼𝗁 𝖠𝗀𝖺𝗂𝗇', switch_inline_query_current_chat=query)
+        ]]
     return InlineKeyboardMarkup(buttons)
 
 
